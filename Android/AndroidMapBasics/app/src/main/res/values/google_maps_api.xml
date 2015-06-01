@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="your_google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        <!--TODO: You gotta put your android google maps key here for this to work
+        it starts with "AIza" and then has some more stuff
+        see line 7 here fow what it should look like-->
+        AIzaAndThenTheRestOfTheKeyButNotThisCauseThisClearlyDoesNotWork
+    </string>
+</resources>
