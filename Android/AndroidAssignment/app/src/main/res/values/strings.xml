@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flag Quiz</string>
+    <string name="title_activity_settings">Settings Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings_activity">Flag Quiz Settings</string>
+    <string name="number_of_choices">Number of Choices</string>
+    <string name="number_of_choices_description">Display 3, 6 or 9 guess buttons</string>
+    <string name="world_regions">Regions</string>
+    <string name="world_regions_description">Regions to include in the quiz</string>
+    <string name="guess_country">Guess the Country</string>
+
+    <string name="results">%1$d guesses, %2$.02f%% correct</string>
+    <string name="incorrect_answer">Incorrect!</string>
+    <string name="default_region_message">Setting North America as the default region. One region must be selected.</string>
+    <string name="restarting_quiz">Quiz will restart with your new settings</string>
+    <string name="set_on_quiz_restart">New settings will be applied on quiz restart</string>
+    <string name="defaults_on_quiz_restart">Default settings will be used on quiz restart</string>
+    <string name="ok">OK</string>
+    <string name="question">Question %1$d of %2$d</string>
+    <string name="reset_quiz">Reset Quiz</string>
+    <string name="image_description">Image of the current flag in the quiz</string>
+    <string name="default_region">North_America</string>
+
+    <string name="pref_forceDefaults">pref_defaultsCheck</string>
+    <string name="pref_resetCheck">pref_resetCheck</string>
+    <string name="pref_numberOfQuestions">pref_numberOfQuestions</string>
+    <string name="pref_regionsToInclude">pref_regionsToInclude</string>
+    <string name="pref_numberOfChoices">pref_numberOfChoices</string>
+
+    <string name="pref_globalGuesses">pref_global_guesses</string>
+    <string name="pref_globalCorrect">pref_global_correct</string>
+    <string name="pref_quizzesCompleted">pref_quizzes_completed</string>
+
+    <!-- Show stats Alert Dialog -->
+    <string name="global_results">Quizzes completed: %1$d \nTotal guesses: %2$d
+        \nTotal correct: %3$d \nPercentage: %4$.02f%% correct</string>
+    <string name="dialog_ok">Okay</string>
+
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pref_question_label">The number of questions in each quiz</string>
+    <string name="pref_question_title">Number of Questions</string>
+    <string name="pref_resetCheck_title">Don\'t reset on change</string>
+    <string name="pref_resetCheck_label">Preference changes don\'t immediately restart quiz</string>
+    <string name="pref_defaultCheck_title">Defaults on Reset</string>
+    <string name="pref_defaultCheck_label">Force default values when quiz resets</string>
+
+</resources>

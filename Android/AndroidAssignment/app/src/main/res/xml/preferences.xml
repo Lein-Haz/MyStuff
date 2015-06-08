@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="@string/pref_numberOfQuestions"
+        android:persistent="true"
+        android:summary="@string/pref_question_label"
+        android:title="@string/pref_question_title"
+        android:defaultValue="4"/>
+
+    <ListPreference
+        android:entries="@array/guesses_list"
+        android:entryValues="@array/guesses_list"
+        android:key="@string/pref_numberOfChoices"
+        android:persistent="true"
+        android:summary="@string/number_of_choices_description"
+        android:title="@string/number_of_choices" 
+        android:defaultValue="3"/>
+
+    <MultiSelectListPreference
+        android:entries="@array/regions_list_for_settings"
+        android:entryValues="@array/regions_list"
+        android:key="@string/pref_regionsToInclude"
+        android:persistent="true"
+        android:summary="@string/world_regions_description"
+        android:title="@string/world_regions" 
+        android:defaultValue="@array/regions_list"/>
+
+    <CheckBoxPreference
+        android:key="@string/pref_resetCheck"
+        android:persistent="true"
+        android:title="@string/pref_resetCheck_title"
+        android:summary="@string/pref_resetCheck_label"
+        android:defaultValue="false"/>
+
+    <CheckBoxPreference
+        android:key="@string/pref_forceDefaults"
+        android:persistent="true"
+        android:title="@string/pref_defaultCheck_title"
+        android:summary="@string/pref_defaultCheck_label"
+        android:defaultValue="false"/>
+
+
+
+</PreferenceScreen>
