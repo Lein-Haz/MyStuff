@@ -3,8 +3,28 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+
+    <script>
+        $('#slider').nivoSlider({
+            effect: 'sliceDown', //animation effect
+            slices: 15, //#of slices for slice animation
+            pauseTime: 3800, //how long slide stays visible
+            animSpeed: 850, //duration of the animation sequence
+            pauseOnHover: true, //pause animation when mouse hovers
+            controlNav: true //shows nav arrows
+        });
+    </script>
 </head>
 <body>
+
+
+<div class="slider-wrapper theme-default">
+    <div class="ribbon"></div>
+    <div id="slider" class="nivoSlider">
+        <img src="./images/test%20images/kamakura_buddha.jpg" title="One">
+        <img src="./images/test%20images/Ulmer_Münster-Münsterplatz.jpg" title="It's tall">
+    </div>
+</div>
 
 </body>
 </html>
